@@ -1,0 +1,49 @@
+#myCarousel .carousel-item {
+  height: 500px;
+}
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://nhadepso.com/wp-content/uploads/2023/01/anh-anime-phong-canh_10.jpg);
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2021/11/hinh-anh-chill-dep.jpg);
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://anhdep123.com/wp-content/uploads/2020/05/%E1%BA%A3nh-b%E1%BA%A7u-tr%E1%BB%9Di-%C4%91%C3%AAm.jpg);
+}
+
+/* footer */
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20% 6% 2%;
+}
+.content-list {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  column-gap: 14px;
+}
+.nav-item:nth-child(1) {
+  list-style: none;
+}
+.nav-item:nth-child(2) {
+  margin: 0 10px;
+}
+.content-list .nav-item::marker {
+  font-size: 8px;
+}
+.content-right > p {
+  margin: 0;
+}
